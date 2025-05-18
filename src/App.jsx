@@ -1,9 +1,10 @@
 import React from 'react';
+import reactLogo from './assets/react-logo.png'
 
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+    <img src={reactLogo} alt="" />
     </div>
   )
 }
